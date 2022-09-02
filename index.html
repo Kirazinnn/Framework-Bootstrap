@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+     <link rel="stylesheet" href="style.css">   
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#" name="topo">Catálogo de Animes</a>
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item"><a class="nav-link" href="#table">Tabela</a></li>
+                <li class="nav-item"><a class="nav-link" href="#slide">Slide</a></li>
+                <li class="nav-item"><a class="nav-link" href="#lista">Lista</a></li>
+                <li class="nav-item"><a class="nav-link" href="#form">Form</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <h2 class="d-flex justify-content-center mt-4"><strong>Tabela de Animes</strong></h2>
+        <section class="d-flex justify-content-center mt-3 mb-5">
+            
+            <table class="table table-bordered table-striped table-dark w-75 p-3">
+                <thead>
+                    <tr>
+                        <th>Gênero</th>
+                        <th>Nome</th>
+                        <th>Nº de Episódios</th>
+                        <th>Personagens Principais</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td class="bg-info">Ação, Aventura e Romance</td>
+                        <td class="bg-warning">Sword Art Online</td>
+                        <td class="bg-success">73 - (Finalizado)</td>
+                        <td class="bg-danger ">Kirito, Asuna, Klein, Eugeo, Alice, Kayaba Akihiko</td>
+                    </tr>
+
+                    <tr>
+                        <td class="bg-info">Ficção de aventura, Ficção supernatural</td>
+                        <td class="bg-warning">Bleach</td>
+                        <td class="bg-success"> 366 - (Em Andamento)</td>
+                        <td class="bg-danger">Ichigo, Inoue, Chad, Rukia, Renji, Aizen</td>
+                    </tr>
+                    <tr>
+                        <td class="bg-info">Ficção de aventura, Fantasia sombria, Artes marciais</td>
+                        <td class="bg-warning">Kimetsu no Yaiba</td>
+                        <td class="bg-success"> 44 - (Em Andamento)</td>
+                        <td class="bg-danger">Tanjiro, Nezuko, Zenitsu, Inosuke</td>
+                    </tr>
+                    <a name="table"></a>
+                    <tr>
+                        <td class="bg-info"> Aventura, Comédia Dramática, Fantasia</td>
+                        <td class="bg-warning"> Naruto</td>
+                        <td class="bg-success"> 220 - (Finalizado)</td>
+                        <td class="bg-danger">Naruto, Sasuke, Kakashi, Hinata, Madara, Itachi</td>
+                    </tr>
+                    <tr>
+                        <td class="bg-info">Ficção de aventura, Fantasia</td>
+                        <td class="bg-warning">Black Clover</td>
+                        <td class="bg-success"> 170 - (Em Andamento)</td>
+                        <td class="bg-danger">Asta, Yami, Noelle, Yuno, Charmy, Finral</td>
+                    </tr>
+                    <tr>
+                        <td class="bg-info">Aventura, Fantasia sombria, Sobrenatural </td>
+                        <td class="bg-warning">Jujutsu Kaisen</td>
+                        <td class="bg-success"> 24 - (Em Andamento)</td>
+                        <td class="bg-danger">Itadori, Gojo, Megumi, Nobara, Sasaki</td>
+                    </tr>
+                    <tr>
+                        <td class="bg-info">Anime, Comédia, Aventura, Ação</td>
+                        <td class="bg-warning">One Piece</td>
+                        <td class="bg-success"> 1030 - (Em Andamento)</td>
+                        <td class="bg-danger">Luffy, Zoro, Sanji, Nami, Chopper, Brook, Franky, Robin, Jimbe, Usopp</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </section>
+
+        <h2 class="d-flex justify-content-center mt-4"><strong>Imagens dos Animes</strong></h2>
+        <section id="carouselExampleIndicators" class="carousel slide w-50 mx-auto mb-5" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+            </ol>
+            <a name="slide"></a>
+            <section class="carousel-inner">
+                <section class="carousel-item active ">
+                    <img class="d-block w-100 mx-auto" src="joyboy.jpg" alt="Luffy Gear 5">
+                </section>
+                <section class="carousel-item">
+                    <img class="d-block w-100 mx-auto" src="madara.jpg" alt="Uchiha Madara">
+                </section>
+                <section class="carousel-item">
+                    <img class="d-block w-100 mx-auto" src="kaisen.jpg" alt="Gojo Satoru">
+                </section>
+                <section class="carousel-item">
+                    <img class="d-block w-100 mx-auto" src="sword.jpg" alt="Personagens SAO">
+                </section>
+                <section class="carousel-item">
+                    <img class="d-block w-100 mx-auto" src="asta.jpg" alt="Asta">
+                </section>
+                <section class="carousel-item">
+                    <img class="d-block w-100 mx-auto" src="tanjiro.png" alt="Tanjiro Kamado">
+                </section>
+                <section class="carousel-item">
+                    <img class="d-block w-100 mx-auto" src="ichigo.jpg" alt="Kurosaki Ichigo">
+                </section>
+            </section>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+            
+        </section>
+        <h2 class="d-flex justify-content-center mt-4"><strong>Outros Animes e Sinopses</strong></h2>
+        <section id="list-example" class="list-group w-50 float-lg-left">
+            <a class="list-group-item list-group-item-action text-white bg-dark" href="#list-item-1">Overlord</a>
+            <a class="list-group-item list-group-item-action text-white bg-secondary" href="#list-item-2">Boruto</a>
+            <a class="list-group-item list-group-item-action text-white bg-dark" href="#list-item-3">Dr. Stone</a>
+            <a class="list-group-item list-group-item-action text-white bg-secondary" href="#list-item-4">Spy x Family</a>
+            <a class="list-group-item list-group-item-action text-white bg-dark" href="#list-item-5">Tensei shitara Slime Datta Ken</a>
+            <a class="list-group-item list-group-item-action text-white bg-secondary" href="#list-item-6">Kakegurui</a>
+            <a class="list-group-item list-group-item-action text-white bg-dark" href="#list-item-7">Enen no Shouboutai</a>
+            <a class="list-group-item list-group-item-action text-white bg-secondary" href="#list-item-8">Tate no Yuusha no Nariagari</a>
+            <a class="list-group-item list-group-item-action text-white bg-dark" href="#list-item-9">Shokugeki no Soma</a>
+            <a class="list-group-item list-group-item-action text-white bg-secondary" href="#list-item-10">One Punch Man</a>
+        </section>
+        <a name="lista"></a>
+        <section id="menuscroll" data-spy="scroll position-relative" data-target="#list-example" data-offset="0" class="scrollspy-example w-50 float-lg-right">
+            <h3><strong><u>SINOPSES</u></strong></h3>
+            <h4 id="list-item-1">Overlord</h4>
+            <p>Yggdrasil é um popular jogo online que acaba sendo encerrado sem alardes certo dia. No entanto, Momonga decide não sair do jogo. 
+                Então ele é transformado num esqueleto como "o mago mais poderoso". O mundo continua a mudar, 
+                com NPCs começando a sentir emoção. Como não tem família, amigos ou lugar na sociedade real, 
+                o jovem Momonga precisa lutar para dominar o novo mundo que o jogo se tornou.</p>
+            <h4 id="list-item-2">Boruto</h4>
+            <p>Sinopse: A Vila Oculta da Folha entrou numa era de paz e modernidade. Prédios altos cerceiam as ruas, telas gigantes brilham com imagens, 
+                e a Linha Trovão corre pela vila, conectando os distritos. Embora continue sendo uma vila ninja, o número de civis aumentou, e a vida dos
+                shinobi começou a mudar. Boruto Uzumaki, filho de Naruto Uzumaki, o Sétimo Hokage, se inscreveu na Academia Ninja para aprender a ser um 
+                verdadeiro ninja. Os outros estudantes o ignoram por ser “apenas o filho do Hokage”, mas a paixão e a personalidade do Boruto vai acabar 
+                com todos esses preconceitos. Quando uma série de misteriosos eventos começa a se desenrolar, cabe a Boruto e seus novos amigos a investigá-los. 
+                Como um tornado, Boruto entra no coração de todos: sua história está prestes a começar!</p>
+            <h4 id="list-item-3">Dr. Stone</h4>
+            <p>Um dia fatídico, toda a humanidade foi petrificada por um flash ofuscante de luz. Depois de vários milênios, o colegial Taiju desperta e se 
+                vê perdido em um mundo de estátuas. No entanto, ele não está sozinho! Seu amigo de ciência Senku está em funcionamento há alguns meses e ele 
+                tem um grande plano em mente: dar o pontapé inicial na civilização com o poder da ciência!</p>
+            <h4 id="list-item-4">Spy x Family</h4>
+            <p>A história acompanha um dos maiores espiões do mundo tendo que se infiltrar no país inimigo para eliminar uma figura importante do governo. 
+                Como forma de aproximação do seu alvo, ele precisa encontrar uma família, e por conta disso acaba adotando uma garota, e formando um 
+                acordo para se casar com uma mulher local. Entretanto, o que ele não imagina, é que a garota na verdade é uma esper (Um indivíduo capaz 
+                de realizar telepatia e outras habilidades paranormais.), e sua nova esposa é uma assassina de aluguel. Assim, os três começam a morar juntos, 
+                tendo que esconder suas verdadeiras identidades uns dos outros.</p>
+            <h4 id="list-item-5">Tensei shitara Slime Datta Ken</h4>
+            <p>A nação de Tempest está em clima festivo depois de superar com sucesso o ataque surpresa do Exército de Falmuth e da Santa Igreja Ocidental. 
+                Além das festividades, há um encontro entre Tempest e seus aliados para decidir o futuro da Nação dos Monstros. 
+                As consequências da invasão de Falmuth, o comportamento suspeito de Milim Nava e o desaparecimento do Lorde Demônio Carniça - 
+                os problemas parecem continuar se acumulando. Rimuru Tempest, agora despertado como um "Verdadeiro Lorde Demônio", 
+                decide partir para a ofensiva contra Clayman. Com o totalmente revivido "Storm Dragon" Veldora, "Ultimate Skill" Raphael e outros camaradas poderosos, 
+                o governante da Tempest está confiante em derrubar seus inimigos um por um até que ele possa enfrentar o homem que puxa as cordas.</p>
+            <h4 id="list-item-6">Kakegurui</h4>
+            <p>Ao contrário de muitas escolas, frequentar a Hyakkaou Private Academy prepara os alunos para o seu tempo no mundo real. 
+                Como muitos dos alunos são filhos das pessoas mais ricas do mundo, a academia tem suas peculiaridades que a separam de todas as outras. 
+                De dia, é uma escola normal, educando seus alunos em história, idiomas e afins. Mas à noite, ele se transforma em um covil de jogo,
+                educando-os na arte de lidar com dinheiro e manipular pessoas. Dinheiro é poder; aqueles que saem no topo dos jogos estão no topo da escola. 
+                Yumeko Jabami, uma estudante de transferência aparentemente ingênua e bonita, está pronta para experimentar o currículo especial de Hyakkaou. 
+                Ao contrário do resto, ela não joga para ganhar, mas para a emoção do jogo, e sua maneira insana de apostar pode trazer muitas cartas novas para a mesa.</p>
+            <h4 id="list-item-7">Enen no Shouboutai</h4>
+            <p>Na história existe um fenômeno sem explicação que aterroriza a humanidade, a combustão humana. 
+                Para combatê-las e encontrar sua causa, foi criada a equipe chamada Fire Force, na qual o protagonista, apelidado de demônio 
+                devido a um incidente do passado, acabou de entrar, na tentativa de realizar seu sonho de virar um herói. Junto a seus amigos 
+                ele vai enfrentar as “tochas humanas” diariamente.</p>
+            <h4 id="list-item-8">Tate no Yuusha no Nariagari</h4>
+            <p>Iwatani Naofumi foi convocado para um mundo paralelo junto com outras 3 pessoas para se tornarem os Heroes do mundo. 
+                Cada um dos heróis ao serem convocados recebeu um equipado lendário dado aos Heroes que salvariam aquele mundo. 
+                Naofumi passou a receber o Legendary Shield, o único equipamento defensivo, enquanto os outros receberam armas capazes de atacar.
+                Devido à falta de carisma e experiência de Naofumi, ele acabou com apenas um único companheiro de equipe, uma mulher bonita, enquanto outros tiveram vários. 
+                Infelizmente, no terceiro dia, Naofumi foi traído, falsamente acusado e roubado pela sua unica colega de Equipe. 
+                Após o decreto do Rei, vários rumores falsos se espalharam por toda parte sobre o Heroi do escudo. 
+                Agora Naofumi terá que lidar com uma vida difícil sendo odiado em outro mundo, em quanto luta para sobreviver e se fortalecer.</p>
+            <h4 id="list-item-9">Shokugeki no Soma</h4>
+            <p>O sonho de Yukihira Souma é se tornar um chef no restaurante de seu pai e superar a culinária dele. 
+                Mas assim que Yukihira se forma no ensino fundamental, seu pai, Jouichirou, fecha o restaurante para ir cozinhar na Europa. 
+                Apesar de estar para baixo, o espírito lutador de Souma reacende quando seu pai o desafia a sobreviver numa escola de culinária de 
+                elite onde só 10% dos alunos se formam. Será que Souma sobreviverá?</p>
+            <h4 id="list-item-10">One Punch Man</h4>
+            <p>Saitama é um herói por hobbie. Após três de “treinamento especial”, ele ficou muito forte, tanto que é praticamente invencível. 
+                Na verdade, ele ficou até forte demais. Até os inimigos mais poderosos são derrotados por apenas um soco. Agora, a visão da grande vidente 
+                Madame Shibbawa sobre o fim do mundo parece estar virando realidade. Monstros estão atacando com muito mais frequência. 
+                Junto de Genos, seu fiel aprendiz, Saitama continua seus trabalhos pela Associação de Heróis. 
+                Enquanto isso, Garou, um homem fascinado por monstros, faz sua primeira aparição.</p>
+                
+        </section>
+
+        <p class="white">.</p>
+        <section class="w-50 m-auto mt-5 align-itens-center">
+
+            <h3 class="w-25 m-auto"><strong>Sugira um anime:</strong></h3><br>
+            <a name="form"></a>
+            <form action="#" class="bg-light w-25 m-auto rounded">
+                <section class="form-row w-75 m-auto">
+                <label for="formGroupExampleInput">Nome:</label>
+                <input type="text" class="form-control mb-3" id="nome" name="nome" placeholder="Seu nome">
+                </section>
+                <section class="form-row w-75 m-auto">
+                <label for="formGroupExampleInput2">Email: </label>
+                <input type="email" class="form-control mb-3" id="email" placeholder="Seu Email">
+                </section>
+                <section class="form-row w-75 m-auto">
+                    <label for="formGroupExampleInput2">Anime: </label>
+                    <input type="text" class="form-control" id="email" placeholder="Anime Sugerido">
+                </section>
+                <section class="form-row w-50 m-auto">
+                    <button type="button" class="btn btn-dark w-100 mt-4 mb-1" data-toggle="modal" data-target="#modalExemplo">Enviar</button>
+                </section>
+            </form>
+        </section>
+
+        
+        <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Sugestão Enviada</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                Agradecemos sua sugestão, nossa equipe irá avaliar com atenção.
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-dark" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        
+    </main>
+
+    <footer class="bg-dark">
+        <section class="d-flex justify-content-center">
+        <a href="#topo" class="mt-3">Voltar ao Início</a>
+        </section>
+    </footer>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
+</html>

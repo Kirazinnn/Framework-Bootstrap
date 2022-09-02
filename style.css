@@ -1,0 +1,22 @@
+body{
+    background-color: coral;
+}
+#menuscroll{
+    background-color: white;
+    position: relative;
+    overflow-y: scroll;
+    height: 490px;
+    border: 1px solid #eee;
+    border-radius: 2px;
+}
+
+.white{
+    color:coral
+}
+
+footer{
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 100%;
+    height: 150px;
+}
